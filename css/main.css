@@ -1,0 +1,194 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+header {
+    clear: both;
+    width: 100%;
+    height: 72px;
+    background: #FF0000;
+    position: fixed;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+header nav ul {
+    list-style-type: none;   
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background: #FFF;
+    color: #FF0000;
+    padding: 10px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 72px;
+    background: #004A8B;
+    bottom: 0;
+}
+
+#container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    clear: both;
+    width: 100%;
+    min-height: 900px;
+    margin: 0;
+    padding: 0;
+}
+
+#main .marquee {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-image: url(../images/family-2.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#main .marquee section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 550px;
+    background: rgba(112, 66, 20, 0.6);
+}
+
+#main .marquee section h1 {
+    margin: 0 auto;
+    padding-top: 14%;
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: oblique;
+    font-size: 3.25em;
+    line-height: 1.25;
+    text-align: left;
+    width: 85%;
+}
+
+#main .marquee section h2 {
+    margin: 0 auto;
+    margin-right: 170px;
+    padding-top: 20px;
+    font-size: 2.25em;
+    color: #FFF;
+    float: right;
+    font-family: "Courgette", sans-serif;
+}
+
+#main .info {
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 0;
+    width: 900px;   
+}
+
+#main .page-info {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;   
+}
+
+#main .page-info section {
+    width: 500px;
+    margin-bottom: 5%;
+    font-family: "Slabo 27px", serif;
+}
+
+#main .page-info section:nth-of-type(1) {
+    padding-top: 15%;   
+}
+
+#main .page-info section h2 {
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.95em;
+    text-transform: uppercase;
+}
+
+#main .page-info section li {
+    margin-bottom: 15px;   
+}
+
+#main .info img {
+    float: left; 
+    width: 40%;
+    margin-right: 20px;
+}
+
+#main .info section {
+    float: left;   
+    text-align: center;
+    width: 500px;
+}
+
+#main .info section h2 {
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.95em;
+    text-transform: uppercase;
+}
+
+#main .info section h3 {
+    margin-top: -20px;
+    font-size: 1.5em;   
+}
+
+#main .info section p {
+    clear: both;
+}
+
+#main .info section ul {
+    margin-left: 0.15in;   
+}
+
+#main .info section ul li {
+    text-align: left;   
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
