@@ -5,6 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Courgette);
 @import url(http://fonts.googleapis.com/css?family=Great+Vibes);
 @import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,200,500,600,700,800,900,300);
 
 header {
     clear: both;
@@ -14,9 +15,24 @@ header {
     position: fixed;
 }
 
+header h1 {
+    float: left;
+    margin-left: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 18px;
+    color: #FFF;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 header nav {
     float: right;
-    margin-top: 25px;
+    margin-top: 28px;
     margin-right: 40px;
 }
 
@@ -32,17 +48,18 @@ header nav ul li {
 
 header nav ul li a {
     text-transform: uppercase;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     text-decoration: none;
     color: #FFF;
-    padding: 10px;
+    padding: 10px 5px;
+    font-size: 0.85em;
+    letter-spacing: 1px;
 }
 
 header nav ul li a:hover {
     background: #FFF;
     color: #FF0000;
-    padding: 10px;
 }
 
 footer {
@@ -51,6 +68,25 @@ footer {
     height: 72px;
     background: #004A8B;
     bottom: 0;
+}
+
+address {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+}
+
+blockquote p {
+    font-weight: bold;
+    text-align: justify;
+}
+
+blockquote p:nth-of-type(2) {
+    text-align: right;
+}
+
+p.contribute {
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 #container {
@@ -62,7 +98,7 @@ footer {
 #main {
     clear: both;
     width: 100%;
-    min-height: 900px;
+    min-height: 940px;
     margin: 0;
     padding: 0;
 }
@@ -117,23 +153,62 @@ footer {
     margin: 0 auto;
     margin-top: 5%;
     padding: 0;
-    width: 900px;   
+    width: 940px;
+}
+
+#main .info section p {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+#main .info section ul {
+    font-size: 1.2em;
 }
 
 #main .page-info {
     margin: 0 auto;
     padding: 0;
-    width: 900px;   
+    width: 940px;
+}
+
+#main .page-info div {
+    width: 650px;
+    float: left;
 }
 
 #main .page-info section {
-    width: 500px;
+    width: 100%;
     margin-bottom: 5%;
     font-family: "Slabo 27px", serif;
+    float: left;
+}
+
+#main .page-info aside {
+    margin-top: 21%;
+    margin-left: 20px;
+    width: 270px;
+    float: left;
+}
+
+#main .page-info aside img {
+    -webkit-box-shadow: 5px 5px 1px 0 #000;
 }
 
 #main .page-info section:nth-of-type(1) {
     padding-top: 15%;   
+}
+
+#main .page-info h1 + section {
+    margin-top: -130px;
+}
+
+#main .page-info section h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.95em;
+    text-transform: uppercase;
 }
 
 #main .page-info section h2 {
@@ -151,16 +226,27 @@ footer {
     margin-bottom: 15px;   
 }
 
+#main .page-info section a {
+    text-decoration: none;
+    color: #004A8B;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#main .page-info section a:hover {
+    text-decoration: underline;
+}
+
 #main .info img {
     float: left; 
-    width: 40%;
+    width: 30%;
     margin-right: 20px;
 }
 
 #main .info section {
     float: left;   
     text-align: center;
-    width: 500px;
+    width: 550px;
 }
 
 #main .info section h2 {
