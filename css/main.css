@@ -156,6 +156,10 @@ p.contribute {
     width: 940px;
 }
 
+#main .info h1 {
+    margin-top: 0;
+}
+
 #main .info section ul {
     font-size: 1.5em;
     font-weight: bold;
