@@ -160,6 +160,10 @@ p.contribute {
     margin-top: -5px;
 }
 
+#main .info h1 br {
+    margin-bottom: 20px;
+}
+
 #main .info section ul {
     font-size: 1.5em;
     font-weight: bold;
