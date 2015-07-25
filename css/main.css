@@ -161,7 +161,8 @@ p.contribute {
 }
 
 #main .info h1 br {
-    padding-top: 10px;
+    clear: both;
+    margin-top: 10px;
 }
 
 #main .info section ul {
