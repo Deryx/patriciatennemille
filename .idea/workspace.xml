@@ -60,8 +60,8 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7975309" vertical-offset="1121" max-vertical-offset="2128">
-              <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.75061727" vertical-offset="1121" max-vertical-offset="2128">
+              <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -332,7 +332,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437795270303</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Event Page update">
+      <created>1437795409391</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1437795409391</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -433,8 +439,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7975309" vertical-offset="1121" max-vertical-offset="2128">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.75061727" vertical-offset="1121" max-vertical-offset="2128">
+          <caret line="57" column="79" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
           <folding />
         </state>
       </provider>
